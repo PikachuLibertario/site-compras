@@ -38,33 +38,34 @@ nav{
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--cor3);
     text-align: center;
-    padding: 20px;
+    padding: 15px;
     box-shadow: 4px 2px 3px black;
+    font-size: 14px;
 }
 nav > a{
     font-size: 1.2em;
     text-decoration: none;
     font-weight: bold;
     color: white;
-    padding: 30px;
+    padding: 10px;
     transition-duration: .3s
 }
 nav > a:hover{
     background-color: var(--cor1);
-    padding: 10px;
+    padding: 5px;
     border-radius: 20px;
 }
 article{
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(255, 255, 255);
-    min-width: 300px;
+    min-width: 320px;
     max-width: 800px;
     margin-top: 30px;
     margin: auto;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.507);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    
+    text-align: center;
 }
 
 article > h2#promo{
