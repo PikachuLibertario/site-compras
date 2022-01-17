@@ -1,0 +1,147 @@
+@charset "UTF-8";
+@font-face{
+    font-family: 'font';
+    src: url("/fonts/PatrickHand-Regular.ttf") format('opentype');
+    font-weight: normal;
+}
+:root{
+    --cor1: #00377A;
+    --cor2: #4B9AFB;
+    --cor3: #0171FA;
+    --cor4: #254B7A;
+    --cor5: #005AC7;
+
+    --fonte-padrao: 'font', 'cursive';
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: var(--cor2);
+    font-family: var(--fonte-padrao);
+}
+header{
+    background-image: linear-gradient(to top, var(--cor5));
+    text-align: center;
+    font-weight: normal;
+    color: white;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.349);
+}
+header > h1{
+    font-size: 3em;
+}
+header > p{
+    font-size: 2em;
+}
+nav{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor3);
+    text-align: center;
+    padding: 20px;
+    box-shadow: 4px 2px 3px black;
+}
+nav > a{
+    font-size: 1.2em;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    padding: 30px;
+    transition-duration: .3s
+}
+nav > a:hover{
+    background-color: var(--cor1);
+    padding: 10px;
+    border-radius: 20px;
+}
+article{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+    min-width: 300px;
+    max-width: 800px;
+    margin-top: 30px;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.507);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+
+article > h2#promo{
+    background-color: var(--cor4);
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin: 20px;
+    border-radius: 20px;
+}
+article > h2#end{
+    background-color: var(--cor4);
+    color: white;
+    font-size: 1.2em;
+    padding: 10px;
+}
+#produtos div{
+    display: inline-block;
+	margin:10px;
+    text-align: center;
+}
+#produtos > div > p{
+    background-color: var(--cor2);
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+footer > p{
+    text-align: center;
+    padding: 5px 2px;
+}
+#contato{
+    list-style-position: inside;
+    columns: 2;
+    padding: 20px;
+    margin: 10px;
+}
+#contato li{
+    font-size: 20px;
+    margin: 10px;
+    font-weight: bold;
+    
+}
+#contato a{
+    text-decoration: none;
+    color: black;
+}
+#contato a:hover{
+    background-color: var(--cor2);
+    color: white;
+    text-decoration: underline;
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+article > h1{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    color: var(--cor3);
+    font-weight: bold;
+    font-size: 2em;
+}
+#lista div{
+    display: inline-block;
+	margin:10px;
+    text-align: center;
+}
+#lista  > div > p{
+    background-color: var(--cor2);
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
