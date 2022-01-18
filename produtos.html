@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,32 +7,29 @@
     <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles/style.css">
     <title>Produtos</title>
+
     <style>
-        #lista div{
-            text-align: center;
-            min-width: 300px;
-            max-width: 920px;
-        }
-        #lista > div > p{
-            text-align: center;
+        article p{
+            padding: 20px;
             font-size: 20px;
         }
-        a{
-            font-size: 1.2em;
+        article a{
             text-decoration: none;
-            font-weight: bold;
-            color: white;
-            padding: 10px;
-            transition-duration: .3s
+            transition-duration: .3s;
+            color: black;
+            font-family: 'font';
         }
-        a:hover{
+        article a:hover{
             background-color: var(--cor1);
-            border-radius: 40px;
+            color: white;
             padding: 5px;
+            border-radius: 30px;
+        }
+        article img{
+            width: 70%;
         }
     </style>
 </head>
-<body>
     <body>
         <header>
             <h1>Mercado do Seu Zé</h1>
@@ -45,49 +42,49 @@
             <a href="contato.html" rel="next" target="_self">Fale Conosco</a>
         </nav>
 
-        <main>
-                <div id="lista">
-                    <div>
-                        <p><a href="alimentos_nao_pereciveis.html" rel="next" target="_self">Alimentos Não Perecíveis</a></p>
-                        <img src="images/nao_pereciveis400.jpg" alt="não perecíveis">
-                    </div>
-                    <div>
-                        <p><a href="acougue.html" rel="next" target="_self">Açougue</a></p>
-                        <img src="images/acougue400.jpg" alt="açougue">
-                    </div>
-                    <div>
-                        <p><a href="congelados.html" rel="next" target="_self">Congelados</a></p>
-                        <img src="images/congelados400.png" alt="congelados">
-                    </div>
-                    <div>
-                        <p><a href="frios.html" rel="next" target="_self">Frios</a></p>
-                        <img src="images/frios400.jpg" alt="frios">
-                    </div>
-                    <div>
-                        <p><a href="embutidos_defumados.html" rel="next" target="_self">Embutidos e defumados</a></p>
-                        <img src="images/embutidos_defumados400.png" alt="embutidos e defumados">
-                    </div>
-                    <div>
-                        <p><a href="hortifruti.html" rel="next" target="_self">Hortifrúti</a></p>
-                        <img src="images/Hortifruti400.jpg" alt="hortifruti">
-                    </div>
-                    <div>
-                        <p><a href="bebidas.html" rel="next" target="_self">Bebidas</a></p>
-                        <img src="images/bebidas400.png" alt="bebidas">
-                    </div>
-                    <div>
-                        <p><a href="higiene_pessoal.html" rel="next" target="_self">Higiene Pessoal</a></p>
-                        <img src="images/Higiene Pessoal400.jpg" alt="higiene pessoal">
-                    </div>
-                    <div>
-                        <p><a href="produtos_limpeza.html" rel="next" target="_self">Produtos de Limpeza</a></p>
-                        <img src="images/Produtos de Limpeza400.jpg" alt="produtos de limpeza">
-                    </div>
-                </div>
-        </main>
+            <main>
+                    <article>
+                        <div>
+                            <p><a href="alimentos_nao_pereciveis.html" rel="next" target="_self">Alimentos Não Perecíveis</a></p>
+                            <img src="images/nao_pereciveis400.jpg" alt="não perecíveis">
+                        </div>
+                        <div>
+                            <p><a href="acougue.html" rel="next" target="_self">Açougue</a></p>
+                            <img src="images/acougue400.jpg" alt="açougue">
+                        </div>
+                        <div>
+                            <p><a href="congelados.html" rel="next" target="_self">Congelados</a></p>
+                            <img src="images/congelados400.png" alt="congelados">
+                        </div>
+                        <div>
+                            <p><a href="frios.html" rel="next" target="_self">Frios</a></p>
+                            <img src="images/frios400.jpg" alt="frios">
+                        </div>
+                        <div>
+                            <p><a href="embutidos_defumados.html" rel="next" target="_self">Embutidos e defumados</a></p>
+                            <img src="images/embutidos_defumados400.png" alt="embutidos e defumados">
+                        </div>
+                        <div>
+                            <p><a href="hortifruti.html" rel="next" target="_self">Hortifrúti</a></p>
+                            <img src="images/Hortifruti400.jpg" alt="hortifruti">
+                        </div>
+                        <div>
+                            <p><a href="bebidas.html" rel="next" target="_self">Bebidas</a></p>
+                            <img src="images/bebidas400.png" alt="bebidas">
+                        </div>
+                        <div>
+                            <p><a href="higiene_pessoal.html" rel="next" target="_self">Higiene Pessoal</a></p>
+                            <img src="images/Higiene Pessoal400.jpg" alt="higiene pessoal">
+                        </div>
+                        <div>
+                            <p><a href="produtos_limpeza.html" rel="next" target="_self">Produtos de Limpeza</a></p>
+                            <img src="images/Produtos de Limpeza400.jpg" alt="produtos de limpeza">
+                        </div>
+                    </article>
+            </main>
 
-        <footer>
+            <footer>
             <p>Site criado por &copy;NoCensure para o mundo.</p>
-        </footer>
-</body>
+            </footer>
+    </body>
 </html>
