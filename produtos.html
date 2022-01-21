@@ -9,24 +9,43 @@
     <title>Produtos</title>
 
     <style>
+        html{
+            min-height: 100vh;
+        }
+        body{
+            background-image: url(../images/wallpaper003.jpg);
+            background-attachment: fixed;
+            background-position: bottom center;
+            min-height: 100vh;
+        }
+
         article p{
-            padding: 20px;
             font-size: 20px;
+            background-color: rgba(255, 255, 255, 0.500);
+            padding: 1px;
+            max-width: 400px;
+            margin: auto;
+            border-radius: 20px;
         }
         article a{
             text-decoration: none;
             transition-duration: .3s;
             color: black;
-            font-family: 'font';
+            font-family: 'Permanent Marker', cursive;
+            
         }
         article a:hover{
-            background-color: var(--cor1);
-            color: white;
-            padding: 5px;
+            background-color: sienna;
+            padding: 10px;
             border-radius: 30px;
+            color: white;
+            text-decoration: underline;
         }
-        article img{
-            width: 70%;
+        picture img{
+            padding-bottom: 20px;
+            margin-top: 10px;
+            display: inline-block;
+            max-width: 100vw;
         }
     </style>
 </head>
@@ -41,48 +60,46 @@
             <a href="produtos.html" target="_self">Produtos</a>
             <a href="contato.html" rel="next" target="_self">Fale Conosco</a>
         </nav>
-
-            <main>
                     <article>
                         <div>
                             <p><a href="alimentos_nao_pereciveis.html" rel="next" target="_self">Alimentos Não Perecíveis</a></p>
-                            <img src="images/nao_pereciveis400.jpg" alt="não perecíveis">
+                            <picture class="imagem">
+                                <img src="images/nao_pereciveis400.jpg" alt="não perecíveis">
+                            </picture>
                         </div>
                         <div>
                             <p><a href="acougue.html" rel="next" target="_self">Açougue</a></p>
-                            <img src="images/acougue400.jpg" alt="açougue">
+                            <picture class="imagem"><img src="images/acougue400.jpg" alt="açougue"></picture>
                         </div>
                         <div>
                             <p><a href="congelados.html" rel="next" target="_self">Congelados</a></p>
-                            <img src="images/congelados400.png" alt="congelados">
+                            <picture class="imagem"><img src="images/congelados400.png" alt="congelados"></picture>
                         </div>
                         <div>
                             <p><a href="frios.html" rel="next" target="_self">Frios</a></p>
-                            <img src="images/frios400.jpg" alt="frios">
+                            <picture class="imagem"><img src="images/frios400.jpg" alt="frios"></picture>
                         </div>
                         <div>
                             <p><a href="embutidos_defumados.html" rel="next" target="_self">Embutidos e defumados</a></p>
-                            <img src="images/embutidos_defumados400.png" alt="embutidos e defumados">
+                            <picture class="imagem"><img src="images/embutidos_defumados400.png" alt="embutidos e defumados"></picture>
                         </div>
                         <div>
                             <p><a href="hortifruti.html" rel="next" target="_self">Hortifrúti</a></p>
-                            <img src="images/Hortifruti400.jpg" alt="hortifruti">
+                            <picture class="imagem"><img src="images/Hortifruti400.jpg" alt="hortifruti"></picture>
                         </div>
                         <div>
                             <p><a href="bebidas.html" rel="next" target="_self">Bebidas</a></p>
-                            <img src="images/bebidas400.png" alt="bebidas">
+                            <picture class="imagem"><img src="images/bebidas400.png" alt="bebidas"></picture>
                         </div>
                         <div>
                             <p><a href="higiene_pessoal.html" rel="next" target="_self">Higiene Pessoal</a></p>
-                            <img src="images/Higiene Pessoal400.jpg" alt="higiene pessoal">
+                            <picture class="imagem"><img src="images/Higiene Pessoal400.jpg" alt="higiene pessoal"></picture>
                         </div>
                         <div>
                             <p><a href="produtos_limpeza.html" rel="next" target="_self">Produtos de Limpeza</a></p>
-                            <img src="images/Produtos de Limpeza400.jpg" alt="produtos de limpeza">
+                            <picture class="imagem"><img src="images/Produtos de Limpeza400.jpg" alt="produtos de limpeza"></picture>
                         </div>
                     </article>
-            </main>
-
             <footer>
             <p>Site criado por &copy;NoCensure para o mundo.</p>
             </footer>

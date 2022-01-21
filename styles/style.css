@@ -1,9 +1,6 @@
 @charset "UTF-8";
-@font-face{
-    font-family: 'font';
-    src: url("/fonts/PatrickHand-Regular.ttf") format('opentype');
-    font-weight: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
 :root{
     --cor1: #00377A;
     --cor2: #4B9AFB;
@@ -11,22 +8,27 @@
     --cor4: #254B7A;
     --cor5: #005AC7;
 
-    --fonte-padrao: 'font', 'cursive';
+    --fonte-padrao: 'Permanent Marker', cursive;
 }
 *{
     margin: 0px;
     padding: 0px;
 }
 body{
-    background-color: var(--cor2);
-    font-family: var(--fonte-padrao);
+    background-image: url(../images/wallpaper003.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: bottom center;
 }
 header{
-    background-image: linear-gradient(to top, var(--cor5));
+    font-family: 'Permanent Marker', cursive;
+    background-image:url(../images/wallpaper001.jpg);
     text-align: center;
     font-weight: normal;
     color: white;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.349);
+    min-width: 40vh;
 }
 header > h1{
     font-size: 3em;
@@ -37,12 +39,14 @@ header > p{
     margin: auto;
 }
 nav{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: var(--cor3);
+    font-family: 'Times New Roman', Times, serif;
+    background-color: var(--cor1);
     text-align: center;
-    padding: 15px;
+    padding: 5px;
     box-shadow: 4px 2px 3px black;
     font-size: 14px;
+    margin-bottom: 20px;
+    min-width: 45vh;
 }
 nav > a{
     font-size: 1.2em;
@@ -53,7 +57,7 @@ nav > a{
     transition-duration: .3s
 }
 nav > a:hover{
-    background-color: var(--cor1);
+    background-color: var(--cor2);
     padding: 5px;
     border-radius: 20px;
 }
@@ -86,10 +90,11 @@ article > h2#end{
     font-weight: bold;
     font-size: 16px;
 }
-footer > p{
-    text-align: center;
-    padding: 5px 2px;
+.lista > img{
+    border: solid rgba(0, 0, 0, 0.600);
+    padding: 0px;
 }
+
 #contato{
     list-style-position: inside;
     columns: 2;
@@ -116,7 +121,7 @@ footer > p{
     border-radius: 10px;
 }
 article > h1{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Permanent Marker', cursive;
     padding: 10px;
     color: var(--cor3);
     font-weight: bold;
@@ -139,7 +144,7 @@ article > h1{
 main{
     min-width: 300px;
     max-width: 800px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.500);
     margin: auto;
     margin-bottom: 30px;
     padding: 20px;
@@ -149,4 +154,12 @@ main{
 }
 article{
     text-align: center;
+}
+
+footer{
+    background-color: yellow;
+}
+footer > p{
+    text-align: center;
+    padding: 3px;
 }
