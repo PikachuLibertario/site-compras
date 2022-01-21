@@ -18,9 +18,9 @@ body{
     background-image: url(../images/wallpaper003.jpg);
     font-family: Arial, Helvetica, sans-serif;
     min-height: 100vh;
-    background-attachment: scroll;
     background-repeat: no-repeat;
     background-size: cover;
+    max-width: 400px;
 }
 header{
     font-family: 'Permanent Marker', cursive;
